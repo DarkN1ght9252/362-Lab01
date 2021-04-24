@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eli/Desktop/comp362/ElijahClarkLab01/list/list.c
+list.h
+/home/eli/Desktop/comp362/ElijahClarkLab01/list/list.h
+
+/home/eli/Desktop/comp362/ElijahClarkLab01/list/list.h
+stdlib.h
+-
+stddef.h
+-
+stdio.h
+-
+string.h
+-
+

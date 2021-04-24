@@ -1,0 +1,996 @@
+/**
+* Name: Elijah Clark
+* Lab/task: Lab 1
+* Date: 02/01\\/20
+**/
+Script started on 2021-02-02 22:27:32-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="101" LINES="62"]
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ cat typescript.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed.txt
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ > ./myProgram > output_of_my_program.txt
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ 
+[K]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ 
+[K]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ 
+[K]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ 
+[K]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ 
+[K]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ gdb --tui list
+[?1049h[22;0;0t[1;62r(B[m[4l[?7h[39;49m[?1h=[H[2J[42d(B[0;7mNone No process In:                                                                     L??   PC: ?? [42;101H(B[m[H(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[3;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[4;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[5;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[6;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[7;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[8;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[9;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[10;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[11;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[12;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[13;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[14;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[15;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[16;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[17;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[18;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[19;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[20;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[21;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[22;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[23;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[24;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[25;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[26;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[27;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[28;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[29;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[30;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[31;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[32;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[33;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[34;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[35;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[36;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[37;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[38;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[39;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[40;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[41;1H(0[0m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[1;1H(0[0m[36m[39m(B(B[m[21;27H[ No Source Available ][21;27H[23X[H[21;27H[ No Source Available ][?1h=
+[43d[H(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[27;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[28;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[29;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[30;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[31;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[32;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[33;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[34;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[35;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[36;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[37;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[38;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[39;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[41;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[21;50H(0[0;1;7m[36m[39m(B(B[m[42;101H[H[2J(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[21;27H(0[0;1;7m[36m[39m(B(B[m[ No Source Available ][101G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[27;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[28;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[29;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[30;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[31;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[32;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[33;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[34;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[35;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[36;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[37;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[38;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[39;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[41;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[42;1H(0[0;1;7m[36m[39m(B[0;7mNone No process In:                                                                     L??   PC: ?? [21;50H(B[m
+[42d
+(B[0;1m[35mGNU gdb (Ubuntu 9.2-0ubuntu1~20.04) 9.2
+[39m(B[mCopyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mlist[39m(B[m...
+
+warning: Source file is more recent than executable.
+[1;4H(B[0;1;7m[36mmain.c
+[5G[39m(B[m25[2;17H{
+[5G26[3;20HLIST *list;
+[5G27
+28[5;20Hallocate_list(&list, NUM_OF_NODES);
+[5G29[6;20Hload_list(list);
+[5G30[7;20Hprint_list(list);
+[5G31[8;20Hfree_list_emb(list);
+[5G32[9;20Hlist = NULL;
+[5G33[10;20Hallocate_list(&list, NUM_OF_NODES);
+[5G34[11;20Hload_list(list);
+[5G35[12;20Hprint_list(list);
+[5G36[13;20Hfree_list_tail(list);
+[5G37
+38[15;20Hallocate_list(&list, NUM_OF_NODES);
+[5G39[16;20Hload_list(list);
+[5G40[17;20Hprint_list(list);
+[5G41[18;20Hfree_list_iter(list);
+[5G42[19;17H}[21;27H[23X[1;10H[40;5H
+
+(B[0;7mexec[101G(B[m[1;10H[40;5H
+
+[101G
+[61d(gdb) run
+[43d[M[61dStarting program: /home/eli/Desktop/comp362/ElijahClarkLab01/list/list
+[1;10H[40;5H
+
+(B[0;7mnative process 15445 In:[101G(B[m
+[62d[1;10H[40;5H
+
+[101G
+[62d[1;10H[40;5H
+
+[101G
+[62d[1;10H[40;5H
+
+[101G
+[62d1
+2
+3
+4
+5
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 3
+
+DATA ITEM 4: 4
+
+DATA ITEM 5: 5
+
+1
+2
+3
+[43d[M[62d[43d[M[61dProgram received signal SIGSEGV, Segmentation fault.
+
+[43d[M[61d[33m__memcpy_ssse3[39m(B[m () at [32m../sysdeps/x86_64/multiarch/memcpy-ssse3.S[39m(B[m:2109
+[42;26H(B[0;7m__memcpy_ssse3[42;77HL2109 PC: 0x7ffff7f2ec64(B[m
+[62d../sysdeps/x86_64/multiarch/memcpy-ssse3.S: No such file or directory.
+[43d[M[62d[42;101H
+[62d(gdb) where
+[43d[2M[61d#0  [33m__memcpy_ssse3[39m(B[m () at [32m../sysdeps/x86_64/multiarch/memcpy-ssse3.S[39m(B[m:2109
+[43d[M[61d#1  [34m0x00007ffff7e4a74d[39m(B[m in [33m_IO_getdelim[39m(B[m ([36mlineptr[39m(B[m=0x5555555592e0, [36mn[39m(B[m=0x7fffffffdf40, [36mdelimiter[39m(B[m=10,
+[43d[M[61;5H[36mfp[39m(B[m=0x7ffff7faf980 <_IO_2_1_stdin_>) at [32miogetdelim.c[39m(B[m:111
+[43d[M[61d#2  [34m0x000055555555536c[39m(B[m in [33mload_list[39m(B[m ([36mlist[39m(B[m=0x5555555592e0) at [32mmain.c[39m(B[m:9
+[43d[M[61d#3  [34m0x0000555555555456[39m(B[m in [33mmain[39m(B[m () at [32mmain.c[39m(B[m:34
+[42;101H
+[62d(gdb) b 9
+[43d[2M[61dBreakpoint 1 at [34m0x7ffff7f2cdf0[39m(B[m: file [32m../sysdeps/x86_64/multiarch/memcpy-ssse3.S[39m(B[m, line 47.
+[42;101H
+[62d(gdb) run
+[43d[M[62d[43d[M[61dThe program being debugged has been started already.
+Start it from the beginning? (y or n) y[42;8H(B[0;7mNo process In: __memcpy_ssse3   [101G(B[m[42;23H(B[0;7m              [42;77H            L??   PC: ??(B[m[2;5H  [2;17H 
+[5G  [3;20H           
+[5G  
+  [5;20H[35X
+[5G  [6;20H[16X
+[5G  [7;20H[17X
+[5G  [8;20H[20X
+[5G  [9;20H            
+[5G  [10;20H[35X
+[5G  [11;20H[16X
+[5G  [12;20H[17X
+[5G  [13;20H[21X
+[5G  
+  [15;20H[35X
+[5G  [16;20H[16X
+[5G  [17;20H[17X
+[5G  [18;20H[21X
+[5G  [19;17H [1;10H[21;27H[ No Source Available ][2;5H25[2;17H{
+[5G26[3;20HLIST *list;
+[5G27
+28[5;20Hallocate_list(&list, NUM_OF_NODES);
+[5G29[6;20Hload_list(list);
+[5G30[7;20Hprint_list(list);
+[5G31[8;20Hfree_list_emb(list);
+[5G32[9;20Hlist = NULL;
+[5G33[10;20Hallocate_list(&list, NUM_OF_NODES);
+[5G34[11;20Hload_list(list);
+[5G35[12;20Hprint_list(list);
+[5G36[13;20Hfree_list_tail(list);
+[5G37
+38[15;20Hallocate_list(&list, NUM_OF_NODES);
+[5G39[16;20Hload_list(list);
+[5G40[17;20Hprint_list(list);
+[5G41[18;20Hfree_list_iter(list);
+[5G42[19;17H}[21;27H[23X[1;10H[40;5H
+
+[101G
+[2M[61dStarting program: /home/eli/Desktop/comp362/ElijahClarkLab01/list/list
+[1;10H[40;5H
+
+[8G(B[0;7mprocess 15453 In:[101G(B[m
+[62d[1;10H[40;5H
+
+[101G
+[62d[1;10H[40;5H
+
+[101G
+[62d[1;10H[40;5H
+
+[101G
+[62d1
+2
+3
+4
+5
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 3
+
+DATA ITEM 4: 4
+
+DATA ITEM 5: 5
+
+1
+2
+3
+[43d[M[62d[43d[M[61dProgram received signal SIGSEGV, Segmentation fault.
+
+[43d[M[61d[33m__memcpy_ssse3[39m(B[m () at [32m../sysdeps/x86_64/multiarch/memcpy-ssse3.S[39m(B[m:2109
+[42;26H(B[0;7m__memcpy_ssse3[42;77HL2109 PC: 0x7ffff7f2ec64(B[m
+[62d../sysdeps/x86_64/multiarch/memcpy-ssse3.S: No such file or directory.
+[43d[M[62d[42;101H
+[62d(gdb) b main.c:9
+[43d[2M[61dBreakpoint 2 at [34m0x555555555352[39m(B[m: file [32mmain.c[39m(B[m, line 9.
+[42;101H
+[62d(gdb) run
+[43d[M[62d[43d[M[61dThe program being debugged has been started already.
+Start it from the beginning? (y or n) y[42;8H(B[0;7mNo process In: __memcpy_ssse3   [101G(B[m[42;23H(B[0;7m              [42;77H            L??   PC: ??(B[m[2;5H  [2;17H 
+[5G  [3;20H           
+[5G  
+  [5;20H[35X
+[5G  [6;20H[16X
+[5G  [7;20H[17X
+[5G  [8;20H[20X
+[5G  [9;20H            
+[5G  [10;20H[35X
+[5G  [11;20H[16X
+[5G  [12;20H[17X
+[5G  [13;20H[21X
+[5G  
+  [15;20H[35X
+[5G  [16;20H[16X
+[5G  [17;20H[17X
+[5G  [18;20H[21X
+[5G  [19;17H [1;10H[21;27H[ No Source Available ][2;5H25[2;17H{
+[5G26[3;20HLIST *list;
+[5G27
+28[5;20Hallocate_list(&list, NUM_OF_NODES);
+[5G29[6;20Hload_list(list);
+[5G30[7;20Hprint_list(list);
+[5G31[8;20Hfree_list_emb(list);
+[5G32[9;20Hlist = NULL;
+[5G33[10;20Hallocate_list(&list, NUM_OF_NODES);
+[5G34[11;20Hload_list(list);
+[5G35[12;20Hprint_list(list);
+[5G36[13;20Hfree_list_tail(list);
+[5G37
+38[15;20Hallocate_list(&list, NUM_OF_NODES);
+[5G39[16;20Hload_list(list);
+[5G40[17;20Hprint_list(list);
+[5G41[18;20Hfree_list_iter(list);
+[5G42[19;17H}[21;27H[23X[1;10H[40;5H
+
+[101G
+[2M[61dStarting program: /home/eli/Desktop/comp362/ElijahClarkLab01/list/list
+[1;10H[40;5H
+
+[8G(B[0;7mprocess 15485 In:[101G(B[m
+[62d[1;10H[40;5H
+
+[101G
+[62d[1;10H[40;5H
+
+[101G
+[62d[1;10H[40;5H
+
+[101G
+[62d[43d[M[62d[43d[M[61dBreakpoint 2, [33mload_list[39m(B[m ([36mlist[39m(B[m=0x5555555592a0) at [32mmain.c[39m(B[m:9
+[42;26H(B[0;7mload_list[42;77HL9    PC: 0x555555555352(B[m[2;5H1 [2;17H#include "list.h"
+[6G [3;20H           
+[5G3 
+4 [5;17Hvoid load_list(LIST *list)            
+[5G5 [6;17H{[18X
+[5G6 [7;20H     size_t size = 0;
+[5G7 [8;20H     while(list != NULL)
+[5G8 [9;20H     {      
+[5G(B[0;7m9                           getline(&(list->data), &size, stdin);
+[5G(B[m10[11;20H             list = list->next;
+[5G11[12;20H     }           
+[5G12[13;17H}[23X
+[5G13
+14[15;17Hvoid print_list(LIST *list)           
+[5G15[16;17H{[18X
+[5G16[17;20H     int count = 1;
+[5G17[18;20H     while(list != NULL)
+[5G18[19;17H [25G{
+[5G19[20;33Hprintf("DATA ITEM %d: %s\n", count++, list->data);
+[5G20[21;33Hlist = list->next;
+[5G21[22;25H}
+[5G22[23;17H}
+[5G23
+24[25;17Hint main(void)
+[5G25[26;17H{
+[5G26[27;20HLIST *list;
+[5G27
+28[29;20Hallocate_list(&list, NUM_OF_NODES);
+[5G29[30;20Hload_list(list);
+[5G30[31;20Hprint_list(list);
+[5G31[32;20Hfree_list_emb(list);
+[5G32[33;20Hlist = NULL;
+[5G33[34;20Hallocate_list(&list, NUM_OF_NODES);
+[5G34[35;20Hload_list(list);
+[5G35[36;20Hprint_list(list);
+[5G36[37;20Hfree_list_tail(list);
+[5G37
+38[39;20Hallocate_list(&list, NUM_OF_NODES);
+[5G39[40;20Hload_list(list);[1;10H[10;2HB+>[40d
+[62d[42;101H
+[62d(gdb) 12 
+[43d[M[62dUndefined command: "1".  Try "help".
+[43d[M[62d[42;101H
+[62d(gdb) 2
+[43d[M[62dUndefined command: "2".  Try "help".
+[43d[M[62d[42;101H
+[62d(gdb) 3
+[43d[M[62dUndefined command: "3".  Try "help".
+[43d[M[62d[42;101H
+[62d(gdb) 4
+[43d[M[62dUndefined command: "4".  Try "help".
+[43d[M[62d[42;101H
+[62d(gdb) clear     run
+[43d[M[62d[43d[M[61dThe program being debugged has been started already.
+Start it from the beginning? (y or n) Y y[42;8H(B[0;7mNo process In: load_list   [101G(B[m[42;23H(B[0;7m         [42;77H            L??   PC: ??(B[m[2;5H [2;17H[17X
+[5G 
+ 
+ [5;17H[26X
+[5G [6;17H 
+[5G [7;25H[16X
+[5G [8;25H[19X
+[5G [9;25H 
+[C[68X
+     [11;33H[18X
+[5G  [12;25H 
+[5G  [13;17H 
+[5G  
+  [15;17H[27X
+[5G  [16;17H 
+[5G  [17;25H[14X
+[5G  [18;25H[19X
+[5G  [19;25H 
+[5G  [20;33H[50X
+[5G  [21;33H[18X
+[5G  [22;25H 
+[5G  [23;17H 
+[5G  
+  [25;17H[14X
+[5G  [26;17H 
+[5G  [27;20H           
+[5G  
+  [29;20H[35X
+[5G  [30;20H[16X
+[5G  [31;20H[17X
+[5G  [32;20H[20X
+[5G  [33;20H            
+[5G  [34;20H[35X
+[5G  [35;20H[16X
+[5G  [36;20H[17X
+[5G  [37;20H[21X
+[5G  
+  [39;20H[35X
+[5G  [40;20H[16X[1;10H[21;27H[ No Source Available ][2;5H25[2;17H{
+[5G26[3;20HLIST *list;
+[5G27
+28[5;20Hallocate_list(&list, NUM_OF_NODES);
+[5G29[6;20Hload_list(list);
+[5G30[7;20Hprint_list(list);
+[5G31[8;20Hfree_list_emb(list);
+[5G32[9;20Hlist = NULL;
+[5G33[10;20Hallocate_list(&list, NUM_OF_NODES);
+[5G34[11;20Hload_list(list);
+[5G35[12;20Hprint_list(list);
+[5G36[13;20Hfree_list_tail(list);
+[5G37
+38[15;20Hallocate_list(&list, NUM_OF_NODES);
+[5G39[16;20Hload_list(list);
+[5G40[17;20Hprint_list(list);
+[5G41[18;20Hfree_list_iter(list);
+[5G42[19;17H}[21;27H[23X[1;10H[40;5H
+
+[101G
+[2M[61dStarting program: /home/eli/Desktop/comp362/ElijahClarkLab01/list/list
+[1;10H[40;5H
+
+[8G(B[0;7mprocess 15487 In:[101G(B[m
+[62d[1;10H[40;5H
+
+[101G
+[62d[1;10H[40;5H
+
+[101G
+[62d[1;10H[40;5H
+
+[101G
+[62d[43d[M[62d[43d[M[61dBreakpoint 2, [33mload_list[39m(B[m ([36mlist[39m(B[m=0x5555555592a0) at [32mmain.c[39m(B[m:9
+[42;26H(B[0;7mload_list[42;77HL9    PC: 0x555555555352(B[m[2;5H1 [2;17H#include "list.h"
+[6G [3;20H           
+[5G3 
+4 [5;17Hvoid load_list(LIST *list)            
+[5G5 [6;17H{[18X
+[5G6 [7;20H     size_t size = 0;
+[5G7 [8;20H     while(list != NULL)
+[5G8 [9;20H     {      
+[5G(B[0;7m9                           getline(&(list->data), &size, stdin);
+[5G(B[m10[11;20H             list = list->next;
+[5G11[12;20H     }           
+[5G12[13;17H}[23X
+[5G13
+14[15;17Hvoid print_list(LIST *list)           
+[5G15[16;17H{[18X
+[5G16[17;20H     int count = 1;
+[5G17[18;20H     while(list != NULL)
+[5G18[19;17H [25G{
+[5G19[20;33Hprintf("DATA ITEM %d: %s\n", count++, list->data);
+[5G20[21;33Hlist = list->next;
+[5G21[22;25H}
+[5G22[23;17H}
+[5G23
+24[25;17Hint main(void)
+[5G25[26;17H{
+[5G26[27;20HLIST *list;
+[5G27
+28[29;20Hallocate_list(&list, NUM_OF_NODES);
+[5G29[30;20Hload_list(list);
+[5G30[31;20Hprint_list(list);
+[5G31[32;20Hfree_list_emb(list);
+[5G32[33;20Hlist = NULL;
+[5G33[34;20Hallocate_list(&list, NUM_OF_NODES);
+[5G34[35;20Hload_list(list);
+[5G35[36;20Hprint_list(list);
+[5G36[37;20Hfree_list_tail(list);
+[5G37
+38[39;20Hallocate_list(&list, NUM_OF_NODES);
+[5G39[40;20Hload_list(list);[1;10H[10;2HB+>[40d
+[62d[42;101H
+[62d(gdb) c
+[43d[2M[61dContinuing.
+1
+[43d[M[62d[43d[M[61dBreakpoint 2, [33mload_list[39m(B[m ([36mlist[39m(B[m=0x5555555592c0) at [32mmain.c[39m(B[m:9
+[42;101H
+[62d[42;101H
+[62d(gdb) c
+[43d[2M[61dContinuing.
+c
+[43d[M[62d[43d[M[61dBreakpoint 2, [33mload_list[39m(B[m ([36mlist[39m(B[m=0x5555555592e0) at [32mmain.c[39m(B[m:9
+[42;101H
+[62d[42;101H
+[62d(gdb) c
+[43d[2M[61dContinuing.
+c
+[43d[M[62d[43d[M[61dBreakpoint 2, [33mload_list[39m(B[m ([36mlist[39m(B[m=0x555555559300) at [32mmain.c[39m(B[m:9
+[42;101H
+[62d[42;101H
+[62d(gdb) c
+[43d[2M[61dContinuing.
+c
+[43d[M[62d[43d[M[61dBreakpoint 2, [33mload_list[39m(B[m ([36mlist[39m(B[m=0x555555559320) at [32mmain.c[39m(B[m:9
+[42;101H
+[62d[42;101H
+[62d(gdb) c
+[43d[2M[61dContinuing.
+c
+DATA ITEM 1: 1
+
+DATA ITEM 2: c
+
+DATA ITEM 3: c
+
+DATA ITEM 4: c
+
+DATA ITEM 5: c
+
+[43d[M[62d[43d[M[61dBreakpoint 2, [33mload_list[39m(B[m ([36mlist[39m(B[m=0x5555555592a0) at [32mmain.c[39m(B[m:9
+[42;101H
+[62d[42;101H
+[62d(gdb) c
+[43d[2M[61dContinuing.
+c
+[43d[M[62d[43d[M[61dBreakpoint 2, [33mload_list[39m(B[m ([36mlist[39m(B[m=0x5555555592c0) at [32mmain.c[39m(B[m:9
+[42;101H
+[62d[42;101H
+[62d(gdb) [2;40r[40;1H
+[1;62r[9;2H   
+B+>
+[40d(0[0;1;7m[36mx[39m(B(B[m   40[40;20Hprint_list(list);[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[9;2HB+>
+   [40d
+
+[101G[62;7H[2;40r[40;1H
+[1;62r[8;2H   
+B+>
+[40d(0[0;1;7m[36mx[39m(B(B[m   41[40;20Hfree_list_iter(list);[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[8;2HB+>
+   [40d
+
+[101G[62;7H[2;40r[40;1H
+[1;62r[7;2H   
+B+>
+[40d(0[0;1;7m[36mx[39m(B(B[m   42[40;17H}[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[7;2HB+>
+   [40d
+
+[101G[62;7H[2;40r[40;1H
+[1;62r[6;2H   
+B+>
+[40d(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[6;2HB+>
+   [40d
+
+[101G[62;7H[2;40r[40;1H
+[1;62r[5;2H   
+B+>
+[40d(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[5;2HB+>
+   [40d
+
+[101G[62;7H[2;40r[40;1H
+[1;62r[4;2H   
+B+>
+[40d(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+
+
+[CB+>
+   [40d
+
+[101G[62;7H[2;40r[40;1H
+[1;62r[3;2H   
+B+>
+[40d(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+
+[CB+>
+   [40d
+
+[101G[62;7Hb list.c:free_list_iter
+[43d[2M[61dBreakpoint 3 at [34m0x555555555217[39m(B[m: file [32mlist.c[39m(B[m, line 16.
+[42;101H
+[62d(gdb) info bra eak
+[43d[2M[61dNum     Type[61;24HDisp Enb Address[61;52HWhat
+[43d[M[61d1[9Gbreakpoint     keep y   [34m0x00007ffff7f2cdf0[39m(B[m [32m../sysdeps/x86_64/multiarch/memcpy-ssse3.S[39m(B[m:47
+[43d[M[61d2[9Gbreakpoint     keep y   [34m0x0000555555555352[39m(B[m in [33mload_list[39m(B[m at [32mmain.c[39m(B[m:9
+[43d[M[61;9Hbreakpoint already hit 7 times
+[43d[M[61d3[9Gbreakpoint     keep y   [34m0x0000555555555217[39m(B[m in [33mfree_list_iter[39m(B[m at [32mlist.c[39m(B[m:16
+[42;101H
+[62d(gdb) print list
+[43d[2M[61d$1 = (LIST *) [34m0x5555555592c0
+[39m(B[m[42;101H
+[62d(gdb) print list.datqa  a
+[43d[2M[61d$2 = [34m0x5555555592e0[39m(B[m ""
+[42;101H
+[62d(gdb) printlist[1;10H[40;5H[62;16H[1;10H[40;5H[62;16H[1;10H[40;5H[62;16H[1;10H[40;5H[62;16H[1;10H[40;5H[62;16H[1;10H[40;5H[62;16H[1;10H[40;5H[62;16H[1;10H[40;5H[62;16H[2;24H{ 
+[32G(B[0;7mgetline(&(list->data), &size, stdin);(B[m [4;32Hlist = list->next; [5;24H} [6;17H 
+
+oid print_list(LIST *list) [9;17H 
+[24Gint count = 1; [11;24Hwhile(list != NULL) [12;24H{ 
+[32Gprintf("DATA ITEM %d: %s\n", count++, list->data); [14;32Hlist = list->next; [15;24H} [16;17H 
+
+nt main(void) [19;17H 
+ LIST *list; [22;19Hallocate_list(&list, NUM_OF_NODES); [23;19Hload_list(list); [24;19Hprint_list(list); [25;19Hfree_list_emb(list); [26;19Hlist = NULL; [27;19Hallocate_list(&list, NUM_OF_NODES); [28;19Hload_list(list); [29;19Hprint_list(list); [30;19Hfree_list_tail(list); [32;19Hallocate_list(&list, NUM_OF_NODES); [33;19Hload_list(list); [34;19Hprint_list(list); [35;19Hfree_list_iter(list); [36;17H [1;10H[40;5H[62;16H[2;9r[9;1H
+[1;62r[13;19r[19;1H
+[1;62r[20;23r[23;1H
+[1;62r[30;33r[33;1H
+[1;62r[2;2H   [2;32H(B[0;7m getline(&(list->data), &size, stdin);
+[C(B[mB+>[3;32H list = list->next;[4;24H }[5;17H}
+
+void print_list(LIST *list)[8;17H{
+(0[0;1;7m[36mx[39m(B(B[m   16[9;25Hint count = 1;[101G(0[0;1;7m[36mx[39m(B(B[m[10;6H(0[0;1;7m[36m[39m(B(B[m7[10;24H while(list != NULL)
+[6G8[11;24H {[17X
+[6G9[12;24H [12;33Hprintf("DATA ITEM %d: %s\n", count++, list->data);[13;32H list = list->next;[14;24H }[15;17H}
+
+int main(void)[18;17H{
+(0[0;1;7m[36mx[39m(B(B[m   26[19;20HLIST *list;[101G(0[0;1;7m[36mx[39m(B(B[m[21;19H(0[0;1;7m[36m[39m(B(B[m allocate_list(&list, NUM_OF_NODES);[22;19H load_list(list);
+(0[0;1;7m[36mx[39m(B(B[m   30[23;20Hprint_list(list);[101G(0[0;1;7m[36mx[39m(B(B[m[24;6H(0[0;1;7m[36m[39m(B(B[m1[24;19H free_list_emb(list);
+[6G2[25;19H list = NULL;       
+[6G3[26;19H allocate_list(&list, NUM_OF_NODES);
+[6G4[27;19H load_list(list);[18X
+[6G5[28;19H print_list(list);
+[6G6[29;19H free_list_tail(list);[31;19H allocate_list(&list, NUM_OF_NODES);[32;19H load_list(list);
+(0[0;1;7m[36mx[39m(B(B[m   40[33;20Hprint_list(list);[101G(0[0;1;7m[36mx[39m(B(B[m[34;6H(0[0;1;7m[36m[39m(B(B[m1[34;19H free_list_iter(list);
+[6G2[35;17H}[22X
+[5G  [1;10H
+[CB+>
+   [40d
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[2;2HB+>
+[40d(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+[C   [40d
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[m   (B[0;7m9                           getline(&(list->data), &size, stdin);[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+[CB+>[40d
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[mB+>8[2;25H{[101G(0[0;1;7m[36mx[39m(B(B[m[3;2H(0[0;1;7m[36m[39m(B(B[m   [1;10H
+[C   
+B+>[40d
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[m   7[2;25Hwhile(list != NULL)[101G(0[0;1;7m[36mx[39m(B(B[m[3;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H
+
+[C   
+B+>[40d
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[3;2H   
+B+>
+[40d(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+
+[CB+>
+   [40d
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[2;2H   
+B+>
+[40d(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+[CB+>
+   [40d
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[2;2HB+>
+[40d(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+[C   [40d
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[40;1H
+[1;62r[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[m   17[2;25Hwhile(list != NULL)[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[m   16[2;25Hint count = 1;[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[m   15[2;17H{[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[m   14[2;17Hvoid print_list(LIST *list)[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[m   13[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[m   12[2;17H}[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[m   11[2;25H}[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[m   10[2;33Hlist = list->next;[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[40;5H
+
+[101G[62;16H[2;40r[2;1HM[1;62r[2;1H(0[0;1;7m[36mx[39m(B(B[m   (B[0;7m9                           getline(&(list->data), &size, stdin);[101G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+[CB+>[40d
+
+[101G[62;16H     t list .next.next
+[43d[2M[61d$3 = (struct list *) [34m0x555555559300
+[39m(B[m[42;101H
+[62d(gdb) print list.next.next.next
+[43d[2M[61d$4 = (struct list *) [34m0x555555559320
+[39m(B[m[42;101H
+[62d(gdb) printl  lits  st.next.next.next.next
+[43d[2M[61d$5 = (struct list *) [34m0x0
+[39m(B[m[42;101H
+[62d(gdb) q
+[43d[M[62d[43d[4M[58dA debugging session is active.[60;9HInferior 1 [process 15487] will be killed.
+
+Quit anyway? (y or n) y[62;1H[?1049l[23;0;0t
+[?1l>]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ nano list.c
+[?2004h[?1049h[22;0;0t[1;62r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[60;44H(B[0;7m[ Reading... ](B[m[60;43H(B[0;7m[ Read 54 lines ](B[m[H(B[0;7m  GNU nano 4.8                                   list.c                                              [1;100H(B[m
+[61d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo
+[62d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo
+[60d[2d(B[0;1m[36m#include[39m(B[m (B[0;1m[33m"list.h"
+[4d(B[0m[32mvoid[39m(B[m allocate_list((B[0;1m[31mLIST[39m(B[m **list, [32mint[39m(B[m count)
+[5d{[6d  (B[0;1m[33mif[39m(B[m (count == 0)[7;4H{[8d  [35mreturn[39m(B[m;[9;4H}[11d*list = ((B[0;1m[31mLIST[39m(B[m*)malloc([32msizeof[39m(B[m((B[0;1m[31mLIST[39m(B[m));[12;4Hallocate_list(&((*list)->next), --count);
+[14d}[16d[32mvoid[39m(B[m free_list_iter((B[0;1m[31mLIST[39m(B[m *head)
+[17d{[18d  (B[0;1m[33mwhile[39m(B[m (head != (B[0;1m[31mNULL[39m(B[m)[19;4H{[20d  (B[0;1m[31mLIST[39m(B[m *next = head->next;[21;7H(B[0;1m[33mif[39m(B[m (head->data != (B[0;1m[31mNULL[39m(B[m)[22;10Hfree(head->data);[23;7Hfree(head);[24;7Hhead = next;[25;4H}
+[26d}[28d[32mvoid[39m(B[m free_list_emb((B[0;1m[31mLIST[39m(B[m *head)
+[29d{[30d  (B[0;1m[31mLIST[39m(B[m *curr = head;[32;4H(B[0;1m[33mif[39m(B[m (curr->next)[33;7Hfree_list_emb(curr->next);[35;4H(B[0;1m[33mif[39m(B[m (head->data != (B[0;1m[31mNULL[39m(B[m)[36;7Hfree(curr->data);
+[38d(B[0;1m[34m//   free(curr);
+[39d[39m(B[m}[41d[32mvoid[39m(B[m free_list_tail((B[0;1m[31mLIST[39m(B[m *head)
+[42d{[43d  (B[0;1m[33mif[39m(B[m (head == (B[0;1m[31mNULL[39m(B[m)[44;7H[35mreturn[39m(B[m;[46;4H(B[0;1m[31mLIST[39m(B[m *next = head->next;[48;4H(B[0;1m[33mif[39m(B[m (head->data != (B[0;1m[31mNULL[39m(B[m)[49;7Hfree(head->data);
+[51d(B[0;1m[34m//   free(head);[53;4H[39m(B[mfree_list_tail(next);
+[54d}[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[60d[K[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[25d[?12l[?25h[?25l[26d[?12l[?25h[?25l[27d[?12l[?25h[?25l[28d[?12l[?25h[?25l[29d[?12l[?25h[?25l[30d[?12l[?25h[?25l[31d[?12l[?25h[?25l[32d[?12l[?25h[?25l[33d[?12l[?25h[?25l[34d[?12l[?25h[?25l[35d[?12l[?25h[?25l[36d[?12l[?25h[?25l[37d[?12l[?25h[?25l[38d[?12l[?25h[?25l[39d[?12l[?25h[?25l[40d[?12l[?25h[?25l[41d[?12l[?25h[?25l[42d[?12l[?25h[?25l[43d[?12l[?25h[?25l[44d[?12l[?25h[?25l[45d[?12l[?25h[?25l[46d[?12l[?25h[?25l[47d[?12l[?25h[?25l[48d[?12l[?25h[?25l[49d[?12l[?25h[?25l[50d[?12l[?25h[?25l[51d[?12l[?25h[?25l[52d[?12l[?25h[?25l[53d[?12l[?25h[?25l[54d[?12l[?25h[?25l[55d[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[33d[?12l[?25h[?25l[34d[?12l[?25h[?25l[35d[?12l[?25h[?25l[36d[?12l[?25h[?25l[37d[?12l[?25h[?25l[38d[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l
+[39d[?12l[?25h[?25l}[?12l[?25h[?25l[?12l[?25h[?25l[38;17H[?12l[?25h[?25l[1;92H(B[0;7mModified(B[m[38;16H [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m   [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l
+/[K[?12l[?25h[?25l[K[?12l[?25h[?25l[37;60r[60;1H
+[1;62r[37;1H[?12l[?25h[?25l[38d[?12l[?25h[?25l[39d[?12l[?25h[?25l[40d[?12l[?25h[?25l[41d[?12l[?25h[?25l[42d[?12l[?25h[?25l[43d[?12l[?25h[?25l[44d[?12l[?25h[?25l[45d[?12l[?25h[?25l[46d[?12l[?25h[?25l[47d[?12l[?25h[?25l[48d[?12l[?25h[?25l[49d[?12l[?25h[?25l[50d[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m   [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l
+/[K[?12l[?25h[?25l[K[?12l[?25h[?25l[60d(B[0;7mSave modified buffer?                                                                                [61;1H Y(B[m Yes[K
+[62d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[60;23H[?12l[?25h[?25l
+[61d(B[0;7m^G(B[m Get Help[61;26H(B[0;7mM-D(B[m DOS Format[61;51H(B[0;7mM-A(B[m Append[61;76H(B[0;7mM-B(B[m Backup File
+[62d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[62;51H(B[0;7mM-P(B[m Prepend[62;76H(B[0;7m^T(B[m To Files
+[60d(B[0;7mFile Name to Write: list.c
+(B[m[60;27H[?12l[?25h[?25l[60;43H[1K (B[0;7m[ Writing... ](B[m[K[1;92H(B[0;7m        (B[m[60;42H(B[0;7m[ Wrote 53 lines ](B[m
+[J[62d[?12l[?25h[62;1H[?1049l[23;0;0t
+[?1l>[?2004l]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ gdb --tui list
+[?1049h[22;0;0t[1;62r(B[m[4l[?7h[39;49m[?1h=[H[2J[42d(B[0;7mNone No process In:                                                                     L??   PC: ?? [42;101H(B[m[H(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[3;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[4;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[5;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[6;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[7;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[8;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[9;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[10;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[11;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[12;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[13;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[14;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[15;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[16;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[17;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[18;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[19;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[20;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[21;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[22;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[23;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[24;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[25;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[26;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[27;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[28;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[29;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[30;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[31;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[32;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[33;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[34;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[35;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[36;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[37;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[38;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[39;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[40;1H(0[0m[36mx[39m(B(B[m[101G(0[0m[36mx[39m(B(B[m[41;1H(0[0m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[1;1H(0[0m[36m[39m(B(B[m[21;27H[ No Source Available ][21;27H[23X[H[21;27H[ No Source Available ][?1h=
+[43d[H(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[27;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[28;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[29;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[30;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[31;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[32;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[33;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[34;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[35;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[36;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[37;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[38;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[39;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[41;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[21;50H(0[0;1;7m[36m[39m(B(B[m[42;101H[H[2J(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[21;27H(0[0;1;7m[36m[39m(B(B[m[ No Source Available ][101G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[27;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[28;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[29;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[30;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[31;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[32;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[33;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[34;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[35;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[36;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[37;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[38;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[39;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[40;1H(0[0;1;7m[36mx[39m(B(B[m[101G(0[0;1;7m[36mx[39m(B(B[m[41;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[42;1H(0[0;1;7m[36m[39m(B[0;7mNone No process In:                                                                     L??   PC: ?? [21;50H(B[m
+[42d
+(B[0;1m[35mGNU gdb (Ubuntu 9.2-0ubuntu1~20.04) 9.2
+[39m(B[mCopyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mlist[39m(B[m...
+
+warning: Source file is more recent than executable.
+[1;4H(B[0;1;7m[36mmain.c
+[5G[39m(B[m25[2;17H{
+[5G26[3;20HLIST *list;
+[5G27
+28[5;20Hallocate_list(&list, NUM_OF_NODES);
+[5G29[6;20Hload_list(list);
+[5G30[7;20Hprint_list(list);
+[5G31[8;20Hfree_list_emb(list);
+[5G32[9;20Hlist = NULL;
+[5G33[10;20Hallocate_list(&list, NUM_OF_NODES);
+[5G34[11;20Hload_list(list);
+[5G35[12;20Hprint_list(list);
+[5G36[13;20Hfree_list_tail(list);
+[5G37
+38[15;20Hallocate_list(&list, NUM_OF_NODES);
+[5G39[16;20Hload_list(list);
+[5G40[17;20Hprint_list(list);
+[5G41[18;20Hfree_list_iter(list);
+[5G42[19;17H}[21;27H[23X[1;10H[40;5H
+
+(B[0;7mexec[101G(B[m[1;10H[40;5H
+
+[101G
+[61d(gdb) run
+[43d[M[61dStarting program: /home/eli/Desktop/comp362/ElijahClarkLab01/list/list
+[1;10H[40;5H
+
+(B[0;7mnative process 15753 In:[101G(B[m
+[62d[1;10H[40;5H
+
+[101G
+[62d[1;10H[40;5H
+
+[101G
+[62d[1;10H[40;5H
+
+[101G
+[62d1
+2
+3
+4
+5
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 3
+
+DATA ITEM 4: 4
+
+DATA ITEM 5: 5
+
+1
+2
+3
+[43d[M[62d[43d[M[61dProgram received signal SIGSEGV, Segmentation fault.
+
+[43d[M[61d[33m__memcpy_ssse3[39m(B[m () at [32m../sysdeps/x86_64/multiarch/memcpy-ssse3.S[39m(B[m:2109
+[42;26H(B[0;7m__memcpy_ssse3[42;77HL2109 PC: 0x7ffff7f2ec64(B[m
+[62d../sysdeps/x86_64/multiarch/memcpy-ssse3.S: No such file or directory.
+[43d[M[62d[42;101H
+[62d(gdb) terminate called after throwing an instance of 'gdb_exception_error'
+Aborted (core dumped)
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ gdb --tui list[3Pnano list.cgdb --tui list> ./myProgram > output_of_my_program.txtcat typescript.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed.txt[Alear[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgdb --tui list[7P./list gcc -m64 -g -O0 -D_DEBUG -Wall *.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clist.c main.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ cd ..[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -fr *[4Pmakecmake ..-DCMAKE_BUILD_TYPE=Release ..make[Kcmake ..[4Pmakecmake -DCMAKE_BUILD_TYPE=Debug ..[13Pd cmake-build-debug[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcat CMakeLists.txt [4@sudo apt install cmake[C[2Pvim[C[14Pcd listunzip list.zipcp ~/Downloads/list.zip .[7Pd lijahClarkLab01mkdir ElijahClarkLab01[12Pcd comp362[3@mkdir[C[C[C[C[C[C[C[Cpwd[Ksudo apt install manpages-posix-dev pwd[Kmkdir comp362[3Pcd[C[C[C[C[C[C[C[Cmkdir ElijahClarkLab01[4Pcd lijahClarkLab01p ~/Downloads/list.zip .[11Punzip list.zip[7Pcd listsudo apt install vim [2@cmake[C[4Pcat CMakeLists.txt[Cmkdir cmake-build-debug[3Pcd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -DCMAKE_BUILD_TYPE=Debug ..make[Kcmake ..[4Pmakecmake -DCMAKE_BUILD_TYPE=Release ....[K[4Pmakerm -fr *[3Pcd ..gcc -m64 -g -O0 -D_DEBUG -Wall list.c main.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C*.c -o list [K[A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ ./list [K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgdb --tui listc[Klearat typescript.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed.txt[A[1P> ./myProgram > output_of_my_program.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pgdb --tui list[3Pnano list.cgdb --tui list[Kgdb --tui list[3Pnano list.cgdb --tui list> ./myProgram > output_of_my_program.txtcat typescript.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed.txt[Alear[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgdb --tui list[7P./list gcc -m64 -g -O0 -D_DEBUG -Wall *.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clist.c main.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ cd ..[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -fr *[4Pmakecmake ..-DCMAKE_BUILD_TYPE=Release ..make[Kcmake ..[4Pmakecmake -DCMAKE_BUILD_TYPE=Debug ..[13Pd cmake-build-debug[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcat CMakeLists.txt [4@sudo apt install cmake[C[2Pvim[C[14Pcd listunzip list.zipcp ~/Downloads/list.zip .[7Pd lijahClarkLab01mkdir ElijahClarkLab01[12Pcd comp362[3@mkdir[C[C[C[C[C[C[C[Cpwd[Ksudo apt install manpages-posix-dev pwd[Kmkdir comp362[3Pcd[C[C[C[C[C[C[C[Cmkdir ElijahClarkLab01[4Pcd lijahClarkLab01p ~/Downloads/list.zip .[11Punzip list.zip[7Pcd listsudo apt install vim [2@cmake[C[4Pcat CMakeLists.txt[Cmkdir cmake-build-debug[3Pcd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -DCMAKE_BUILD_TYPE=Debug ..make[Kcmake ..[4Pmakecmake -DCMAKE_BUILD_TYPE=Release ....[K[4Pmakerm -fr *[4Pmakecmake ..-DCMAKE_BUILD_TYPE=Release ..make[Kcmake ..[4Pmakecmake -DCMAKE_BUILD_TYPE=Debug ..[13Pd cmake-build-debug[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcat CMakeLists.txt [4@sudo apt install cmake[C[2Pvim[C[14Pcd listunzip list.zipcp ~/Downloads/list.zip .[7Pd lijahClarkLab01mkdir ElijahClarkLab01[12Pcd comp362[3@mkdir[C[C[C[C[C[C[C[Cpwd[Ksudo apt install manpages-posix-dev pwd[Kmkdir comp362[3Pcd[C[C[C[C[C[C[C[Cmkdir ElijahClarkLab01[4Pcd lijahClarkLab01p ~/Downloads/list.zip .[11Punzip list.zip[7Pcd listsudo apt install vim [2@cmake[C[4Pcat CMakeLists.txt[Cmkdir cmake-build-debug[3Pcd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -DCMAKE_BUILD_TYPE=Debug ..[13Pd cmake-build-debug[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcat CMakeLists.txt [4@sudo apt install cmake[C[2Pvim[C[14Pcd listunzip list.zip[7Pcd listsudo apt install vim [2@cmake[C[4Pcat CMakeLists.txt[Cmkdir cmake-build-debug[3Pcd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -DCMAKE_BUILD_TYPE=Debug ..make[Kcmake ..[4Pmakecmake -DCMAKE_BUILD_TYPE=Release ....[K[4Pmakerm -fr *[3Pcd ..gcc -m64 -g -O0 -D_DEBUG -Wall list.c main.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C*.c -o list [K[A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ ./list [K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgdb --tui listc[Klearat typescript.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed.txt[A[1P> ./myProgram > output_of_my_program.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pgdb --tui list[3Pnano list.cgdb --tui list[Kgdb --tui list[3Pnano list.cgdb --tui list> ./myProgram > output_of_my_program.txtcat typescript.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed.txt[Alear[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgdb --tui list[7P./list gcc -m64 -g -O0 -D_DEBUG -Wall *.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clist.c main.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ cd ..[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -fr *[4Pmakerm -fr *[3Pcd ..gcc -m64 -g -O0 -D_DEBUG -Wall list.c main.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C*.c -o list [K[A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ ./list [K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgdb --tui listc[Klearat typescript.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed.txt[A[1P> ./myProgram > output_of_my_program.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pgdb --tui list[3Pnano list.cgdb --tui list[Kq
+
+Command 'q' not found, but can be installed with:
+
+sudo snap install q                       # version 1.6.3-1, or
+sudo apt  install python3-q-text-as-data  # version 1.7.4+2018.12.21+git+28f776ed46-2
+
+See 'snap info q' for additional versions.
+
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ gcc -m64 -g -O0 -D_DEBUG -Wall *.c -o list 
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ cmake ..
+CMake Error: The source directory "/home/eli/Desktop/comp362/ElijahClarkLab01" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ cd list
+bash: cd: list: Not a directory
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ cs[K[Kl
+[0m[01;34mcmake-build-debug[0m/  data_in.txt  list.c  main.c     output_of_my_program.txt  typescript.txt
+CMakeLists.txt      [01;32mlist[0m*        list.h  myProgram  typescript-processed.txt
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ lcd listmake ..gcc -m64 -g -O0 -D_DEBUG -Wall *.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ q[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgdb --tui list[3Pnano list.cgdb --tui list> ./myProgram > output_of_my_program.txtcat typescript.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed.txt[Alear[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgdb --tui list[7P./list gcc -m64 -g -O0 -D_DEBUG -Wall *.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clist.c main.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ cd ..[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -fr *[4Pmakecmake ..-DCMAKE_BUILD_TYPE=Release ..make[Kcmake ..[4Pmakecmake -DCMAKE_BUILD_TYPE=Debug ..[13Pd cmake-build-debug[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcat CMakeLists.txt [4@sudo apt install cmake[C[2Pvim[C[14Pcd listunzip list.zipcp ~/Downloads/list.zip .[7Pd lijahClarkLab01mkdir ElijahClarkLab01[12Pcd comp362[3@mkdir[C[C[C[C[C[C[C[Cpwd[Ksudo apt install manpages-posix-dev pwd[Kmkdir comp362[3Pcd[C[C[C[C[C[C[C[Cmkdir ElijahClarkLab01[4Pcd lijahClarkLab01p ~/Downloads/list.zip .[11Punzip list.zip[7Pcd listsudo apt install vim [2@cmake[C[4Pcat CMakeLists.txt[Cmkdir cmake-build-debug[3Pcd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -DCMAKE_BUILD_TYPE=Debug ..make[Kcmake ..[4Pmakecmake -DCMAKE_BUILD_TYPE=Release ....[K[4Pmakerm -fr *[3Pcd ..gcc -m64 -g -O0 -D_DEBUG -Wall list.c main.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C*.c -o list [K[A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ ./list [K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgdb --tui listc[Klearat typescript.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed.txt[A[1P> ./myProgram > output_of_my_program.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pgdb --tui list[3Pnano list.cgdb --tui listq[Kgcc -m64 -g -O0 -D_DEBUG -Wall *.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ cmake ..[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pd listl[K[Kpw
+pw: command not found
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ pwd
+/home/eli/Desktop/comp362/ElijahClarkLab01/list
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ cmake ..
+CMake Error: The source directory "/home/eli/Desktop/comp362/ElijahClarkLab01" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ make
+make: *** No targets specified and no makefile found.  Stop.
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ list
+
+Command 'list' not found, did you mean:
+
+  command 'mist' from snap mist (master)
+  command 'flist' from deb mmh (0.4-2)
+  command 'flist' from deb nmh (1.7.1-6)
+  command 'hist' from deb loki (2.4.7.4-10)
+  command 'dist' from deb mmh (0.4-2)
+  command 'dist' from deb nmh (1.7.1-6)
+  command 'klist' from deb krb5-user (1.17-6ubuntu4.1)
+  command 'klist' from deb heimdal-clients (7.7.0+dfsg-1ubuntu1)
+  command 'mlist' from deb mblaze (0.6-1)
+  command 'gist' from deb yorick (2.2.04+dfsg1-10)
+  command 'lift' from deb lift (2.5.0-1)
+  command 'last' from deb util-linux (2.34-0.1ubuntu9.1)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ gdb list
+[35;1m[35;1mGNU gdb [m[35;1m(Ubuntu 9.2-0ubuntu1~20.04) [m[35;1m9.2[m[35;1m
+[m[mCopyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mlist[m...
+(gdb) run
+Starting program: /home/eli/Desktop/comp362/ElijahClarkLab01/list/list 
+1
+2
+3
+4
+5
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 3
+
+DATA ITEM 4: 4
+
+DATA ITEM 5: 5
+
+1
+2
+3
+4
+5
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 3
+
+DATA ITEM 4: 4
+
+DATA ITEM 5: 5
+
+1
+2
+3
+4
+5
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 3
+
+DATA ITEM 4: 4
+
+DATA ITEM 5: 5
+
+[Inferior 1 (process 16040) exited normally]
+(gdb) nano[K[K[K[Kq
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ nano list
+[?2004h[?1049h[22;0;0t[1;62r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[60;44H(B[0;7m[ Reading... ](B[m[60;29H(B[0;7m[ Read 57 lines (Converted from Mac format) ](B[m[H(B[0;7m  GNU nano 4.8                                    list                                               [1;100H(B[m
+[61d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo
+[62d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo
+[60d[2d[39;49m(B[m^?ELF^B^A^A^@^@^@^@^@^@^@^@^@^C^@>^@^A^@^@^@�^P^@^@^@^@^@^@@^@^@^@^@^@^@^@�L^@^@^@^@^@^@^@^@^@^@@^@8(B[0;7m>[3;1H(B[m^@@^@$^@#^@^F^@^@^@^D^@^@^@@^@^@^@^@^@^@^@@^@^@^@^@^@^@^@@^@^@^@^@^@^@^@�^B^@^@^@^@^@^@�^B^@^@^@^@^@(B[0;7m>[4;1H(B[m^@^@^@^A^@^@^@^F^@^@^@^@^@�^@�^@^@^@
+[5d^@^@^@^K^@^@^@�e�mgUa^P^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@Y^@^@^@^R^@^@^@^@^@^@^@^@^@^@(B[0;7m>[6;1H(B[m^@^@^C^@^^@^@^@^P^@^@^@u^Zi     ^@^@^B^@h^@^@^@^@^@^@^@�=^@^@^@^@^@^@^H^@^@^@^@^@^@^@�^Q^@^@^@^@^@^@(B[0;7m>[7;1H(B[m^@^@^@^@^@^@^@^@^@^@^@^P@^@^@^@^@^@^@^E^@^@^@^K^@^@^@^@^@^@^@^@^@^@^@�?^@^@^@^@^@^@^G^@^@^@^A^@^@^@^(B[0;7m>[8;1H(B[m/^@^@^O^_D^@^@�^O^^���%^E/^@^@^O^_D^@^@�^O^^���%�.^@^@^O^_D^@^@�^O^^���%�.^@^@^O^_D^@^@�^O^^�1�I��^H(B[0;7m>[9;1H(B[m�^C^@^@H�=�^B^@^@�^U�.^@^@��H�=�.^@^@H�^E�.^@^@H9�t^UH�^E�.^@^@H��t     ��^O^_�^@^@^@^@�^O^_�^@^@^@^(B[0;7m>[10;1H(B[m^@^@^@^A^[^C;t^@^@^@
+[11d^@^@^@^H����^@^@^@h����^@^@^@x����^@^@^@�����^@^@^@����^@^A^@^@���� ^A^@^@W���@^A^@^@����`^A^@^@����(B[0;7m>[12;1H(B[m^F^BE^L^G^H^@^@^\^@^@^@�^@^@^@����X^@^@^@^@E^N^P�^BC
+[13d^F^BO^L^G^H^@^@^\^@^@^@�^@^@^@^O���S^@^@^@^@E^N^P�^BC
+[14d^F^BJ^L^G^H^@^@^\^@^@^@�^@^@^@B���O^@^@^@^@E^N^P�^BC
+[15d^F^BF^L^G^H^@^@^\^@^@^@^L^A^@^@q���m^@^@^@^@E^N^P�^BC
+[16d^F^Bd^L^G^H^@^@^\^@^@^@,^A^@^@����S^@^@^@^@E^N^P�^BC
+[17d^F^BJ^L^G^H^@^@^\^@^@^@L^A^@^@�����^@^@^@^@E^N^P�^BC
+[18d^F^B�^L^G^H^@^@D^@^@^@l^A^@^@����e^@^@^@^@F^N^P�^BI^N^X�^CE^N �^DE^N(�^ED^N0�^FH^N8�^GG^N@n^N8A^N0A^(B[0;7m>[19;1H(B[m^@^@^@^@^@^@^@(^U^@^@^@^@^@^@^Y^@^@^@^@^@^@^@�=^@^@^@^@^@^@^[^@^@^@^@^@^@^@^H^@^@^@^@^@^@^@^Z^@^@^@^(B[0;7m>[20;1H(B[m^@^@^@^@^@^@^@�^@^@^@^@^@^@^@^K^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@^U^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^@^(B[0;7m>[21;1H(B[m^C^@^@^D9[17G�^@^@^@[41m         [49m(B[m6^A^@^@^D:[49G�^@^@^@([21;65H�^A^@^@^D;[81G�^@^@^@0[97G3^@^(B[0;7m>[22;1H(B[m�^@^@^@�[22;17H�^@^@^@^D[^Wy^B^@^@�    �^A^@^@^D\^Y�^B^@^@�    �^B^@^@^D]^TX^B^@^@�    )^A^@^@^D^  (B[0;7m>[23;1H(B[m-^@^@^@�[23;17H|^A^@^@^D`^G@^@^@^@�    �^B^@^@^Db^H�^B^@^@�^@^B�^A^@^@^E^G^Y�^@^@^@
+[24d�^A^@^@^D+^N^K^X^A^@^@^F^HM^B^@^@^F^H�^@^@^@^L�^@^@^@n^B^@^@
+[25d9^@^@^@^@^@^F^HE^B^@^@^K�^@^@^@^F^Ht^B^@^@^K�^A^@^@^F^H^?^B^@^@^L�^@^@^@�^B^@^@
+[26d9^@^@^@^S^@^N#^A^@^@^F�^N�^B^@^@^F^H9^B^@^@^N�^A^@^@^F�^N�^B^@^@^N�^B^@^@^F�^N�^B^@^@^ND^A^@^@^G^Z^L(B[0;7m>[27;1H(B[m�^@^@^@^@[17Ge^@^@^@^H^O^Q^_^C^@^@^H^@^F^H�^B^@^@^B^Y^C^@^@^H^P^C�^B^@^@^P�^B^@^@^A'^F�^R^@^@^@^@(B[0;7m>[28;1H(B[mn^C^@^@^B�h^@^F^H%^C^@^@^P�^@^@^@^A^[^Fo^R^@^@^@^@^@^@S^@^@^@^@^@^@^@^A��^C^@^@^Q^F^B^@^@^A^[^Zn^C^@(B[0;7m>[29;1H(B[mn^C^@^@^B�h^@^P�^@^@^@^A^O^F^W^R^@^@^@^@^@^@X^@^@^@^@^@^@^@^A�^@^D^@^@^Q^F^B^@^@^A^O^[n^C^@^@^B�X^S)(B[0;7m>[30;1H(B[mn^C^@^@^B�h^@^@^PW^@^@^@^A^C^F�^Q^@^@^@^@^@^@N^@^@^@^@^@^@^@^A�=^D^@^@^Q^S^A^@^@^A^C^[=^D^@^@^B�h^Q^(B[0;7m>[31;1H(B[m^C^@^@^D9[17G�^@^@^@[41m         [49m(B[m6^A^@^@^D:[49G�^@^@^@([31;65H�^A^@^@^D;[81G�^@^@^@0[97G3^@^(B[0;7m>[32;1H(B[m�^@^@^@�[32;17H�^@^@^@^D[^Wy^B^@^@�    �^A^@^@^D\^Y�^B^@^@�    �^B^@^@^D]^TX^B^@^@�    )^A^@^@^D^  (B[0;7m>[33;1H(B[m-^@^@^@�[33;17H|^A^@^@^D`^G@^@^@^@�    �^B^@^@^Db^H�^B^@^@�^@^B�^A^@^@^E^G^Y�^@^@^@
+[34d�^A^@^@^D+^N^K^X^A^@^@^F^HM^B^@^@^F^H�^@^@^@^L�^@^@^@n^B^@^@
+[35d9^@^@^@^@^@^F^HE^B^@^@^K�^@^@^@^F^Ht^B^@^@^K�^A^@^@^F^H^?^B^@^@^L�^@^@^@�^B^@^@
+[36d9^@^@^@^S^@^N#^A^@^@^F�^N�^B^@^@^F^H9^B^@^@^N�^A^@^@^F�^N�^B^@^@^N�^B^@^@^F�^N�^B^@^@^ND^A^@^@^G^Z^L(B[0;7m>[37;1H(B[m�^@^@^@^@[17Ge^@^@^@^H^O^Q^_^C^@^@^H^@^F^H�^B^@^@^B^Y^C^@^@^H^P^C�^B^@^@^P?^C^@^@^A^X^E@^@^@^@�^S(B[0;7m>[38;1H(B[mc^C^@^@^B�`^@^F^H%^C^@^@^R^^^C^@^@^A^N^F~^S^@^@^@^@^@^@S^@^@^@^@^@^@^@^A��^C^@^@^S^S^A^@^@^A^N^Wc^C^(B[0;7m>[39;1H(B[m^@^C^N:^K;^K9^KI^S8^K^@^@
+[40d^V^@^C^N:^K;^K9^K^@^@^K^S^@^C^N<^Y^@^@^L^A^AI^S^A^S^@^@
+[41d!^@I^S/^K^@^@^N4^@^C^N:^K;^K9^KI^S?^Y<^Y^@^@^O!^@^@^@^P.^A?^Y^C^N:^K;^K9^K'^Y^Q^A^R^G@^X�B^Y^A^S^@^@(B[0;7m>[42;1H(B[m^@^C^N:^K;^K9^KI^S8^K^@^@
+[43d^V^@^C^N:^K;^K9^K^@^@^K^S^@^C^N<^Y^@^@^L^A^AI^S^A^S^@^@
+[44d!^@I^S/^K^@^@^N4^@^C^N:^K;^K9^KI^S?^Y<^Y^@^@^O!^@^@^@^P.^A?^Y^C^N:^K;^K9^K'^YI^S^Q^A^R^G@^X�B^Y^A^S^(B[0;7m>[45;1H(B[m^@^A^A^A^A^@^@^@^A^@^@^A/usr/lib/gcc/x86_64-linux-gnu/9/include^@/usr/include/x86_64-linux-gnu/bits^(B[0;7m>[46;1H(B[m�^E^Du^E^UJ^E^Rt^E^DJ^E^G�^E^A&1^E
+[47d�^E
+[48d0^E^O�^E
+[49dt^E^SY^E
+[50dt^E^G�^E^L�^E
+[51d^Cz�^E^A|M^E
+[52d�^E^L�^E^G�^E^YY^E^G�^E^L�^E^Gt^E^PY^E^Gt^E^A�?^E^G�^E
+[53dw^E^L�^E^Gt^E^PY^E^Gt^E^D�^E^G^Cy�^E^A(^B^B^@^A^AU^A^@^@^C^@�^@^@^@^A^A�^N
+[54d^@^A^A^A^A^@^@^@^A^@^@^A/usr/lib/gcc/x86_64-linux-gnu/9/include^@/usr/include/x86_64-linux-gnu/bits^(B[0;7m>[55;1H(B[m^@�^E^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^K^@�^F^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^L^@^@^P(B[0;7m>[56;1H(B[m^@ ^P^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^N^@�^P^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^O^@�^P^(B[0;7m>[57;1H(B[m^A^@^@^R^@^P^@ ^U^@^@^@^@^@^@^E^@^@^@^@^@^@^@^Z^A^@^@^R^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@,^A^@^@(B[0;7m>[58;1H(B[m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@�^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@ ^@^@(B[0;7m>[2;1H(B[m[?12l[?25h[?25l[9d[?12l[?25h[?25l[16d[?12l[?25h[?25l[23d[?12l[?25h[?25l[60d[K[30d[?12l[?25h[?25l[37d[?12l[?25h[?25l[30d[?12l[?25h[?25l[23d[?12l[?25h[?25l[16d[?12l[?25h[?25l[9d[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[9d[?12l[?25h[?25l[11d[?12l[?25h[?25l[16d[?12l[?25h[?25l[23d[?12l[?25h[?25l[30d[?12l[?25h[?25l[37d[?12l[?25h[?25l[44d[?12l[?25h[?25l[51d[?12l[?25h[?25l[58d[?12l[?25h[?25l[59d[?12l[?25h[?25l[52d[?12l[?25h[?25l[45d[?12l[?25h[?25l[38d[?12l[?25h[?25l[31d[?12l[?25h[?25l[24d[?12l[?25h[?25l[17d[?12l[?25h[?25l[10d[?12l[?25h[?25l[3d[?12l[?25h[?25l[A[?12l[?25h[?25l[9d[?12l[?25h[?25l[16d[?12l[?25h[?25l[23d[?12l[?25h[?25l[30d[?12l[?25h[?25l[37d[?12l[?25h[?25l[44d[?12l[?25h[?25l[51d[?12l[?25h[?25l[58d[?12l[?25h[?25l[61d[J[62d[?12l[?25h[62;1H[?1049l[23;0;0t
+[?1l>[?2004l]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ nano list.c
+[?2004h[?1049h[22;0;0t[1;62r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[60;44H(B[0;7m[ Reading... ](B[m[60;43H(B[0;7m[ Read 51 lines ](B[m[H(B[0;7m  GNU nano 4.8                                   list.c                                              [1;100H(B[m
+[61d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo
+[62d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo
+[60d[2d(B[0;1m[36m#include[39m(B[m (B[0;1m[33m"list.h"
+[4d(B[0m[32mvoid[39m(B[m allocate_list((B[0;1m[31mLIST[39m(B[m **list, [32mint[39m(B[m count)
+[5d{[6d  (B[0;1m[33mif[39m(B[m (count == 0)[7;4H{[8d  [35mreturn[39m(B[m;[9;4H}[11d*list = ((B[0;1m[31mLIST[39m(B[m*)malloc([32msizeof[39m(B[m((B[0;1m[31mLIST[39m(B[m));[12;4Hallocate_list(&((*list)->next), --count);
+[14d}[16d[32mvoid[39m(B[m free_list_iter((B[0;1m[31mLIST[39m(B[m *head)
+[17d{[18d  (B[0;1m[33mwhile[39m(B[m (head != (B[0;1m[31mNULL[39m(B[m)[19;4H{[20d  (B[0;1m[31mLIST[39m(B[m *next = head->next;[21;7H(B[0;1m[33mif[39m(B[m (head->data != (B[0;1m[31mNULL[39m(B[m)[22;10Hfree(head->data);[23;7Hfree(head);[24;7Hhead = next;[25;4H}
+[26d}[28d[32mvoid[39m(B[m free_list_emb((B[0;1m[31mLIST[39m(B[m *head)
+[29d{[30d  (B[0;1m[31mLIST[39m(B[m *curr = head;[32;4H(B[0;1m[33mif[39m(B[m (curr->next)[33;7Hfree_list_emb(curr->next);[35;4H(B[0;1m[33mif[39m(B[m (head->data != (B[0;1m[31mNULL[39m(B[m)[36;7Hfree(curr->data);
+[38d}[40d[32mvoid[39m(B[m free_list_tail((B[0;1m[31mLIST[39m(B[m *head)
+[41d{[42d  (B[0;1m[33mif[39m(B[m (head == (B[0;1m[31mNULL[39m(B[m)[43;7H[35mreturn[39m(B[m;[45;4H(B[0;1m[31mLIST[39m(B[m *next = head->next;[47;4H(B[0;1m[33mif[39m(B[m (head->data != (B[0;1m[31mNULL[39m(B[m)[48;7Hfree(head->data);[50;4Hfree_list_tail(next);
+[51d}[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[A[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l
+[60d[K[23;4H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25l([?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25ld[?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[?25l[1;92H(B[0;7mModified(B[m[23;17H [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m[1K [49m(B[m [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[23;60r[60;1H
+[1;62r[22;27H[?12l[?25h[?25l7[23;60r8
+[23dM[1;62r[23;1H[?12l[?25h[?25l[60d(B[0;7mSave modified buffer?                                                                                [61;1H Y(B[m Yes[K
+[62d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[60;23H[?12l[?25h[?25l
+[61d(B[0;7m^G(B[m Get Help[61;26H(B[0;7mM-D(B[m DOS Format[61;51H(B[0;7mM-A(B[m Append[61;76H(B[0;7mM-B(B[m Backup File
+[62d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[62;51H(B[0;7mM-P(B[m Prepend[62;76H(B[0;7m^T(B[m To Files
+[60d(B[0;7mFile Name to Write: list.c
+(B[m[60;27H[?12l[?25h[?25l[60;43H[1K (B[0;7m[ Writing... ](B[m[K[1;92H(B[0;7m        (B[m[60;42H(B[0;7m[ Wrote 51 lines ](B[m
+[J[62d[?12l[?25h[62;1H[?1049l[23;0;0t
+[?1l>[?2004l]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ nano list.c[K[1Pgdb[C[C[C[C[C
+[35;1m[35;1mGNU gdb [m[35;1m(Ubuntu 9.2-0ubuntu1~20.04) [m[35;1m9.2[m[35;1m
+[m[mCopyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mlist[m...
+(gdb) q
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ nano[K[K[K[Kgdb listnano list.c[K[1Pgdb[C[C[C[C[C[4Plistmakecmake ..[4Pmake
+make: *** No targets specified and no makefile found.  Stop.
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ makegdb listnano list.c[K[1Pgdb[C[C[C[C[C[4Plistmakecmake ..[5Ppwd[K[1Plcd listmake ..gcc -m64 -g -O0 -D_DEBUG -Wall *.c -o list [A
+]0;eli@eli-VirtualBox: ~/Desktop/comp362/ElijahClarkLab01/list[01;32meli@eli-VirtualBox[00m:[01;34m~/Desktop/comp362/ElijahClarkLab01/list[00m$ q[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
